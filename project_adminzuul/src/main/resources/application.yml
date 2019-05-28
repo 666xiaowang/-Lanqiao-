@@ -1,0 +1,62 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: project-adminzuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9999/eureka
+  instance:
+    prefer-ip-address: true
+
+
+
+
+zuul:
+  routes:
+    project-active:
+      path: /active/**  #请求的规则（给请求增加了前缀）
+      serviceId:  project-active #Eureka中服务的id值
+    project-article:
+      path: /article/**  #请求的规则（给请求增加了前缀）
+      serviceId:  project-article #Eureka中服务的id值
+    project-base:
+      path: /base/**  #请求的规则（给请求增加了前缀）
+      serviceId:  project-base #Eureka中服务的id值
+    project-comments:
+      path: /comments/**  #请求的规则（给请求增加了前缀）
+      serviceId:  project-comments #Eureka中服务的id值
+    project-elasticsearch:
+      path: /elasticsearch/**  #请求的规则（给请求增加了前缀）
+      serviceId:  project-elasticsearch #Eureka中服务的id值
+    project-friend:
+      path: /friend/**  #请求的规则（给请求增加了前缀）
+      serviceId:  project-friend #Eureka中服务的id值
+    project-qa:
+      path: /qa/**  #请求的规则（给请求增加了前缀）
+      serviceId:  project-qa #Eureka中服务的id值
+    project-recruit:
+      path: /recruit/**  #请求的规则（给请求增加了前缀）
+      serviceId:  project-recruit #Eureka中服务的id值
+    project-sms:
+      path: /sms/**  #请求的规则（给请求增加了前缀）
+      serviceId:  project-sms #Eureka中服务的id值
+    project-user:
+      path: /user/**  #请求的规则（给请求增加了前缀）
+      serviceId:  project-user #Eureka中服务的id值
+
+
+
+
+
+
+
+
+
+
+
+
+

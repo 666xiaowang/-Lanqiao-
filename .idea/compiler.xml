@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="project_active" />
+        <module name="project_adminzuul" />
+        <module name="project_article" />
+        <module name="project_base" />
+        <module name="project_comments" />
+        <module name="project_common" />
+        <module name="project_config" />
+        <module name="project_crawler" />
+        <module name="project_elasticsearch" />
+        <module name="project_eureka" />
+        <module name="project_friend" />
+        <module name="project_qa" />
+        <module name="project_recruit" />
+        <module name="project_sms" />
+        <module name="project_user" />
+        <module name="project_userzuul" />
+        <module name="project_webmagic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="campaign" target="1.8" />
+      <module name="project_article (1)" target="1.8" />
+      <module name="project_campaign" target="1.8" />
+      <module name="project_manager" target="1.5" />
+      <module name="project_web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="campaign" options="-parameters" />
+      <module name="project_active" options="" />
+      <module name="project_article" options="" />
+      <module name="project_article (1)" options="-parameters" />
+      <module name="project_base" options="" />
+      <module name="project_campaign" options="-parameters" />
+      <module name="project_comments" options="" />
+      <module name="project_common" options="" />
+      <module name="project_elasticsearch" options="" />
+      <module name="project_eureka" options="" />
+      <module name="project_qa" options="" />
+      <module name="project_recruit" options="" />
+      <module name="project_sms" options="" />
+      <module name="project_user" options="" />
+    </option>
+  </component>
+</project>

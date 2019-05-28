@@ -1,0 +1,24 @@
+server:
+  port: 10010
+
+spring:
+  application:
+    name: project-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yanqun/project_config.git #登录时输入用户名和密码
+#          uri: git@github.com:yanqun/project_config.git
+#          skipSslValidation: true
+
+
+  #rabbitMQ服务地址
+  rabbitmq:
+    host: 192.168.2.129
+#Bus刷新接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

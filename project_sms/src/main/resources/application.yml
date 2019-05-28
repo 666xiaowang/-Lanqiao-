@@ -1,0 +1,21 @@
+server:
+  port: 9009
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9999/eureka
+  instance:
+    prefer-ip-address: true
+
+spring:
+  application:
+    name: project-sms
+  rabbitmq:
+    host: 192.168.2.129
+
+aliyun:
+  sms:
+    accessKeyId : 蓝桥电商实训项目
+    accessKeySecret : 蓝桥电商实训项目
+    templateCode: 蓝桥电商实训项目
+    signName: 蓝桥电商实训项目
