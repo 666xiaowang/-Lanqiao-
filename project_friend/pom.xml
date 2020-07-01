@@ -46,7 +46,7 @@
     <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <version>5.1.47</version>
+        <version>8.0.16</version>
     </dependency>
 
         <!--以下2个依赖加入拦截器 进行权限 校验 -->
